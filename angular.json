@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
             ],
             "scripts": []
           },
@@ -92,7 +93,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
             ],
             "scripts": []
           }
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "elhoo"
+    }
+  },
+  "defaultProject": "elhoo",
+  "cli": {
+    "analytics": "e611fb6a-a0e9-4598-ac51-6ea4615fc5ee"
+  }
 }
