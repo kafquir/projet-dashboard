@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   
-  x = false;
 
   constructor() { }
 
@@ -16,7 +15,6 @@ export class HeaderComponent implements OnInit {
   
 
   activeButton(){
-    this.x= true ;
   }
 
 }

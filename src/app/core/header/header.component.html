@@ -1,29 +1,37 @@
 <div class="container-fluid">
-
-<nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#"><img src="" alt="">Navbar</a>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           <a href="#"><mat-icon> settings</mat-icon></a> 
-           <a href="#"><mat-icon>email</mat-icon></a> 
-           <a href="#"><mat-icon>notifications_active</mat-icon></a>
-            <li class="nav-item dropdown" >
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         elhoo
-            </a>
-            </li>
+<div class="navbar">
+<div class="col-12">
+    <div class="row">
+        <div class="col-8">
+            <a class="navbar-brand" href="#"><img src="../../../assets/images/logo.svg" alt=""></a>
+        </div>
+        <div class="col-4">
+            <div class="float-right" id="navLogos">
+            <a href="#"><mat-icon> settings</mat-icon></a> 
+            <a href="#"><mat-icon>email</mat-icon></a> 
+            <a href="#"><mat-icon>notifications_active</mat-icon></a>
+            <select name="cars" id="cars">
+              <option value="volvo">elhoo</option>
+            </select>
             <button type="button" class=" btn-circle btn-sm"></button> 
-      </div>
-  </nav>
+        </div>
+        </div>
+</div>
+</div>
+</div>
   <div class="sidenav">
-    <button type="button" ><i class="material-icons">speed</i></button>
-    <button type="button" ><i class="material-icons">add_shopping_cart</i></button>
-    <button type="button" ><i class="material-icons">foundation</i></button>
-    <button type="button" ><i class="material-icons">card_travel</i></button>
-    <button type="button" ><i class="material-icons">contacts</i></button>
-    <button type="button" ><i class="material-icons">settings</i></button>
-    <button type="button" ><i class="material-icons">euro</i></button>
-    <button type="button" ><i class="material-icons">support</i></button> 
+
+    <button class="button-side"><i class="material-icons" routerLink="/dashboard">speed</i></button>
+    <button class="button-side"><i class="material-icons">add_shopping_cart</i></button>
+    <button class="button-side"><i class="material-icons">foundation</i></button>
+    <button class="button-side"><i class="material-icons">card_travel</i></button>
+    <button class="button-side"><i class="material-icons">contacts</i></button>
+    <button class="button-side"><i class="material-icons">settings</i></button>
+    <button class="button-side"><i class="material-icons">euro</i></button>
+    <button class="button-side"><i class="material-icons">support</i></button>
+  </div>
+  <div class="pl-sm-5">
+  <router-outlet></router-outlet>
   </div>
 </div>
 

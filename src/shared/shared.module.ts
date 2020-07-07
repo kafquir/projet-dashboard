@@ -6,6 +6,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
 
+
 @NgModule({
     schemas:  [  ],
     declarations: [],
@@ -15,7 +16,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
       MatDialogModule,
       MatButtonModule,
       MatIconModule,
-      MatSidenavModule
+      MatSidenavModule,
+     
      
     ], 
     exports: [
@@ -23,7 +25,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
       FormsModule,
      MatDialogModule,
      MatIconModule,
-     MatSidenavModule
+     MatSidenavModule,
+    
       
     ]
   })
