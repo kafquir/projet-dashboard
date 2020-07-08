@@ -1,4 +1,6 @@
-<div class="container-fluid">
+<div class="container-fluid elho-containt">
+
+
 <div class="navbar">
 <div class="col-12">
     <div class="row">
@@ -19,18 +21,21 @@
 </div>
 </div>
 </div>
-  <div class="sidenav">
-
-    <button class="button-side"><i class="material-icons" routerLink="/dashboard">speed</i></button>
-    <button class="button-side"><i class="material-icons">add_shopping_cart</i></button>
-    <button class="button-side"><i class="material-icons">foundation</i></button>
-    <button class="button-side"><i class="material-icons">card_travel</i></button>
-    <button class="button-side"><i class="material-icons">contacts</i></button>
-    <button class="button-side"><i class="material-icons">settings</i></button>
-    <button class="button-side"><i class="material-icons">euro</i></button>
-    <button class="button-side"><i class="material-icons">support</i></button>
-  </div>
-  <div class="pl-sm-5">
+<div>
+    <ul class="sidenav list-inline p-3">
+        <li><a href="" routerLink="/dashboard"><i class="material-icons" >speed</i></a></li>
+        <li><a href=""><i class="material-icons">add_shopping_cart</i></a></li>
+        <li><a href=""><i class="material-icons">foundation</i></a></li>
+        <li><a href=""><i class="material-icons">card_travel</i></a></li>
+        <li><a href=""><i class="material-icons">contacts</i></a></li>
+        <li><a href=""><i class="material-icons">settings</i></a></li>
+        <li><a href=""><i class="material-icons">euro</i></a></li>
+        <li><a href=""><i class="material-icons">support</i></a></li>
+        <li class="i_logo"><a href=""><img src="../../../assets/images/i_logo.png" alt=""></a></li>
+    </ul>
+</div>
+      
+  <div class="pl-sm-5 show">
   <router-outlet></router-outlet>
   </div>
 </div>
